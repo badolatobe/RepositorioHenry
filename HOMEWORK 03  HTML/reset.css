@@ -1,0 +1,34 @@
+/* Reset CSS para estilos predeterminados del navegador */
+
+/* Corrige el box model */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Elimina márgenes y rellenos */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Elimina decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina viñetas de listas */
+ul, ol {
+    list-style: none;
+}
